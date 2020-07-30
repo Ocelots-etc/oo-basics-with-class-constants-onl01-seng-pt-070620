@@ -13,8 +13,8 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brands=(brands)
-    @brands = brand
-    BRANDS << brands
+  def brand=(brand)
+    @brand = brand
+    BRAND << brand
   end
 end
